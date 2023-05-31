@@ -1,7 +1,55 @@
+:root {
+    font-size: 16px;
+    color: rgb(34, 34, 109);
+} 
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 10;
+    
 }
+body {
+    height: 100vh;
+    background: rgb(87,131,255);
+    background: radial-gradient(circle, rgba(87,131,255,0.5818965517241379) 39%, rgba(2,0,36,1) 100%, rgba(199,199,255,1) 100%);
+}
+
 main {
-    background-image: ;
+    background-image: url(./img/img1.jpg);
+    height: 30vh;
+}
+
+h1 {
+    padding: 7%;
+    text-align: left;
+    font-size: 3rem;
+}
+
+section {
+    margin: 3%;
+}
+
+section img {
+    margin-top: 1%;
+    height: 20vh;
+    width: auto;
+}
+
+section li {
+    margin-top: 1%;
+}
+
+footer {
+    background-color: rgb(34, 34, 109);
+    height: 10vh;
+    text-align: center;
+    color: white;
+    text-align: left;
+
+}
+footer img {
+    float: left;
+    margin-right: 1rem;
+    height: 5vh;
+    border-radius: 50%;
 }
