@@ -5,7 +5,8 @@
 
 * {
     margin: 0;
-    padding: 10;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 body {
@@ -16,7 +17,9 @@ body {
 
 main {
     background-image: url(./img/img1.jpg);
+    background-size: cover;
     height: 30vh;
+
 }
 
 h1 {
@@ -41,15 +44,16 @@ section li {
 
 footer {
     background-color: rgb(34, 34, 109);
-    height: 10vh;
-    text-align: center;
+    padding: 2rem 10%;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+    align-items: center;
     color: white;
-    text-align: left;
-
 }
+
 footer img {
-    float: left;
-    margin-right: 1rem;
-    height: 5vh;
+    width: 70px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
