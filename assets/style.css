@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    color: rgb(34, 34, 109);
+    color: navy;
 } 
 
 * {
@@ -11,14 +11,21 @@
 }
 body {
     height: 100vh;
-    background: rgb(87,131,255);
-    background: radial-gradient(circle, rgba(87,131,255,0.5818965517241379) 39%, rgba(2,0,36,1) 100%, rgba(199,199,255,1) 100%);
+    background: rgb(186, 202, 217);
+	background: linear-gradient(270deg, rgba(186, 202, 217, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(186, 202, 217, 1) 100%);
+    padding-top: 30vh;
 }
 
-main {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-image: url(./img/img1.jpg);
     background-size: cover;
+    background-position: top;
     height: 30vh;
+    max-height: 50%;
 
 }
 
@@ -33,7 +40,8 @@ section {
 }
 
 section img {
-    margin-top: 1%;
+    object-fit: cover;
+    border-radius: 5%;
     height: 20vh;
     width: auto;
 }
